@@ -10,8 +10,15 @@ const useStyles = makeStyles({
     gridItem:{}
 })
 
+const useStylesSpacing = makeStyles({
+    gridItem: {
+        marginRight:"2rem"
+    }
+})
+
 export default function Nav() {
     const classes = useStyles();
+    const spacingClasses = useStylesSpacing();
     return (
         <>
         <Box
@@ -44,9 +51,8 @@ export default function Nav() {
             container>
                 <Box 
                     component={Grid}
-                    className={classes.gridItem}
+                    className={spacingClasses.gridItem}
                     item
-                    md = {2}
                     display = {{xs: "none", sm: "block"}}
                 >
                     <div className="options">
@@ -61,7 +67,6 @@ export default function Nav() {
                     component={Grid}
                     className={classes.gridItem}
                     item
-                    md={4}
                     display={{ xs: "none", sm: "block" }}
                 >
                     <div className="options">
@@ -74,9 +79,8 @@ export default function Nav() {
                 </Box>
                 <Box 
                     component={Grid}
-                    className={classes.gridItem}
+                    className={spacingClasses.gridItem}
                     item
-                    xs = {3}
                     display={{ xs: "block", sm: "none"}}
                 >
                     <div className="options">
@@ -91,7 +95,6 @@ export default function Nav() {
                     component={Grid}
                     className={classes.gridItem}
                     item
-                    xs={3}
                     display={{ xs: "block", sm: "none" }}
                 >
                     <div className="options">
