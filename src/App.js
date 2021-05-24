@@ -8,6 +8,7 @@ import {
 import "./App.css";
 import Grid from '@material-ui/core/Grid';
 import Nav from './components/Nav.js';
+import Footer from './components/Footer.js';
 import Home from './components/Home.js';
 import Blog from './components/Blog.js';
 import Project from './components/Project.js';
@@ -39,6 +40,8 @@ export default function Portfolio() {
             </Switch>
           </Grid>
         </Grid>
+        <Footer />
+
       </div>
     </Router>
   );

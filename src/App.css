@@ -70,3 +70,14 @@ a {
   color: rgb(153, 153, 153);
   text-decoration: underline;
 }
+
+.copyright-text{
+  color: rgb(153, 153, 153);
+}
+
+.source-text{
+  color: rgb(153, 153, 153);
+}
+.source-text:hover{
+  text-decoration: underline;
+}
