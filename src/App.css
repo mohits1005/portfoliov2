@@ -1,0 +1,72 @@
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.link-hover:hover{
+  color:#0000ff;
+}
+
+.link-hover:active,.link-hover:focus{
+  font-weight: bolder;
+}
+
+.link-hover-mobile:active,.link-hover-mobile:focus{
+  font-weight: bolder;
+}
+
+.link-hover-mobile:active,.link-hover-mobile:focus,.link-hover-mobile:hover, .link-hover-mobile:selected{
+  background:none !important;
+  outline: none !important;
+  background-color: #fff !important;
+}
+
+.app-layout{
+  font-family: "Roboto Mono", monospace;
+}
+
+.app-layout .para{
+  line-height: 1.5em;
+  font-size: 1.25rem;
+}
+
+.app-layout .para-link{
+  color:#0000ff;
+}
+
+.app-layout .para-link:hover{
+  color: rgb(153, 153, 153);
+  text-decoration: underline;
+}
+
+.app-layout .user-name{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.app-layout .link-title{
+  font-size: 1.8rem;
+}
+
+.blog-content .blog-posted{
+  color: rgb(153, 153, 153);
+}
+
+.blog-content .blog-title{
+  color:#0000ff;
+}
+
+.blog-content .blog-title:hover{
+  color: rgb(153, 153, 153);
+  text-decoration: underline;
+}
+
+.project-content .project-title{
+  color:#0000ff;
+}
+
+.project-content .project-title:hover{
+  color: rgb(153, 153, 153);
+  text-decoration: underline;
+}
