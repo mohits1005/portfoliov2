@@ -9,7 +9,7 @@ export default function Home() {
                 Hi, I am Mohit. I build things that help users have a better experience on web.
       </div><br />
             <div className="para">
-                Currently working as a Senior Software Engineer at <a href="https://www.impactanalytics.co/"><span className="para-link">Impact Analytics</span></a> where I build retail based SAAS products.
+                Currently working as a Senior Software Engineer at <a href="https://www.impactanalytics.co/"><span className="para-link">Impact Analytics</span></a> where I am building retail based SAAS products.
       </div><br />
             <div className="para">
                 My past gig was at <a href="https://www.faceprep.in/"><span className="para-link">Chalkstreet (FACE)</span></a> where I built an online learning platform.
