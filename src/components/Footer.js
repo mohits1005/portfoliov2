@@ -20,8 +20,7 @@ export default function Nav() {
                 direction="column"
                 alignItems="center"
                 style={{
-                    position: "absolute",
-                    bottom: "1rem"
+                    padding: "0.5rem"
                 }}
             >
                 <Box

@@ -22,7 +22,7 @@ export default function Portfolio() {
           spacing={0}
           direction="column"
           alignItems="center"
-          style={{ minHeight: '100vh', padding: '2rem'}}
+          style={{ minHeight: '96vh', padding: '2rem'}}
         >
 
           <Grid item md={5} xs={12}>
@@ -40,7 +40,7 @@ export default function Portfolio() {
             </Switch>
           </Grid>
         </Grid>
-        <Footer />
+        <Fo6ter />
 
       </div>
     </Router>
