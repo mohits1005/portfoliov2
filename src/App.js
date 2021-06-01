@@ -40,7 +40,7 @@ export default function Portfolio() {
             </Switch>
           </Grid>
         </Grid>
-        <Fo6ter />
+        <Footer />
 
       </div>
     </Router>
